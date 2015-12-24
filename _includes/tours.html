@@ -1,0 +1,102 @@
+{% assign translation = site.data.translations[page.lang] %}
+<!-- Features -->
+<div class="mb10"></div><!-- space -->
+<div class="mb10"></div><!-- space -->
+<div class="container">
+    <div class="row">
+        {% for feature in site.data.tours.features %}
+        <div class="col-sm-4">
+            <div class="service vertical text-center">
+
+                <span class="service-icon"><i class="icon-umbrella"></i></span>
+                <div class="service-content">
+                    <h3 class="service-title title-underblock custom text-uppercase text-center">{{ feature[page.lang] }}</h3>
+                </div><!-- End .service-content -->
+                
+            </div><!-- End .service -->
+        </div><!-- End .col-sm-4 -->
+        {% endfor %}
+    </div><!-- End Features -->
+</div>
+<div class="mb10"></div><!-- space -->
+<div class="container-fluid no-padding vertical-service-block no-border">
+    <!-- Div 1 -->
+    <div class="row">
+        <div class="col-sm-6 col-sm-push-6 no-padding-left">
+            <div class="vertical-service-image fullscreen bg-image text-center" data-bgattach="/images/tours/tours1.jpg" style="background-image: url(/images/tours/tours1.jpg);">
+                <div class="vcenter-container">
+                    <div class="vcenter">
+                        <h2 class="title-underblock white text-center text-white text-uppercase mb30">
+                            {% if page.lang == 'en' %}
+                                Tour of the Garden
+                            {% else %}
+                                Tour del Jardín
+                            {% endif %}
+                        </h2>
+                    </div><!-- End .vcenter -->
+                </div><!-- End .vcenter-container -->
+            </div><!-- End .full-height -->
+        </div><!-- End .col-sm-6 -->
+        <div class="col-sm-6 col-sm-pull-6">
+            <div class="vertical-service-content text-right fullscreen">
+                <div class="vcenter-container">
+                    <div class="vcenter">
+                        <div class="service vertical">
+                            <div class="service-content">
+                                <h3 class="service-title  text-right title-underblock dark text-uppercase">
+                                    {% if page.lang == 'en' %}
+                                        What to bring
+                                    {% else %}
+                                        Qué Traer
+                                    {% endif %}
+                                </h3>
+                                {% if page.lang == 'en' %}
+                                    <p>Bring comfortable walking shoes, the guided tour lasts about 2 hours.</p>
+                                    <p>You may need an umbrella or rain gear during certain times of the year.</p>
+                                {% else %}
+                                    <p>Trae zapatos cómodos para caminar, el tour guiado dura alrededor de 2 horas.</br>Podrías necesitar un paraguas o un impermeable durante ciertas épocas del año.</p>
+                                {% endif %}
+                            </div><!-- End .service-content -->
+                        </div><!-- End .service -->
+                    </div><!-- End .vcenter-->
+                </div><!-- End .vcenter-container-->
+            </div><!-- End .vertical-center-content -->
+        </div><!-- end .col-sm-6 -->
+    </div><!-- End Div 1 -->
+    <div class="row">
+        <div class="col-sm-6 no-padding-right">
+            <div class="vertical-service-image fullscreen bg-image text-center" data-bgattach="/images/tours/tours2.jpg" style="background-image: url(/images/tours/tours2.jpg);">
+                <div class="vcenter-container">
+                    <div class="vcenter">
+                        <h2 class="title-underblock white text-center text-white text-uppercase mb30">
+                            {% if page.lang == 'en' %}
+                                Landscape Consulting
+                            {% else %}
+                                Landscape Consulting
+                            {% endif %}
+                        </h2>
+                    </div><!-- End .vcenter -->
+                </div><!-- End .vcenter-container -->
+            </div><!-- End .full-height -->
+        </div><!-- End .col-sm-6 -->
+
+        <div class="col-sm-6">
+            <div class="vertical-service-content fullscreen">
+                <div class="vcenter-container">
+                    <div class="vcenter">
+                        <div class="service vertical">
+                            <div class="service-content">
+                                <h3 class="service-title  title-underblock dark  text-uppercase">Tour</h3>
+                            </div><!-- End .service-content -->
+                        </div><!-- End .service -->
+                    </div><!-- End .vcenter-->
+                </div><!-- End .vcenter-container-->
+            </div><!-- End .vertical-center-content -->
+        </div><!-- end .col-sm-6 -->
+    </div>
+</div>
+<div class="mb10"></div><!-- space -->
+<div class="container">
+    <h2>{{ translation.prices_colones }}</h2>
+    {% include price_list.html %}
+</div>

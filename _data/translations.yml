@@ -1,0 +1,37 @@
+en:
+    language: Language
+    english: English
+    spanish: Spanish
+    translate: Español
+    tba: To be advised
+    mon: Monday
+    tue: Tuesday
+    wed: Wednesday
+    thu: Thursday
+    fri: Friday
+    sat: Saturday
+    sun: Sunday
+    phone: Phone
+    hours: Hours
+    product: Product
+    name: Name
+    prices_colones: Prices in Colones
+
+es:
+    language: Lenguaje
+    english: Inglés
+    spanish: Español
+    translate: English
+    tba: Por anunciar
+    mon: Lunes
+    tue: Martes
+    wed: Miércoles
+    thu: Jueves
+    fri: Viernes
+    sat: Sábado
+    sun: Domingo
+    phone: Teléfono
+    hours: Horario
+    product: Producto
+    name: Nombre
+    prices_colones: Precios en Colones

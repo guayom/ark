@@ -1,0 +1,38 @@
+---
+layout: page
+lang: en
+alt: /productos-frescos/
+permalink: /fresh-products/
+title: Fresh Products
+description: Bright intense smells assail you as you enter the packing house to purchase fresh herbs. A mix of baby lettuces grown hydroponically are washed and packaged in ½ kilo bags, fresh salad ready to take home. Fresh herbs are for sale so plan ahead to make pesto , share bags of herbs with friends, or get ready to dry fresh herbs for your own kitchen.  <br/>For a peek on what we have on offer for fresh herbs click here. Be prepared to take of the magic home with you.
+weight: 10
+headerimg: fresh-products.jpg
+header_class: largest
+---
+{% assign translation = site.data.translations[page.lang] %}
+<h2>PriceList Fresh Herbs</h2>
+<h3>Hours</h3>
+<p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
+<strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
+<div class="table-responsive">
+	<table class="table table-bordered table-hover table-condensed table-hover">
+	    <thead>
+	        <tr>
+	            <th>{{ translation.name }}</th>
+	            <th class="text-right">1/4 Kg</th>
+	            <th class="text-right">1/2 Kg</th>
+	            <th class="text-right">1 Kg</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	    	{% for product in site.data.fresh_products %}
+	        <tr>
+	            <td>{{ product[page.lang] }}</td>
+	            <td class="text-right">{% unless product.quarter == 'n/a' %}&#162;{{ product.quarter }}{% else %}-{% endunless %}</td>
+	            <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
+	            <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
+	        </tr>
+	        {% endfor %}
+	    </tbody>
+	</table>
+</div>

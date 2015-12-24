@@ -1,0 +1,162 @@
+ - en: Sorrel
+   es: Acedera
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Basil, Sweet
+   es: Albahaca
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Epazote
+   es: Apazote
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Arugula
+   es: Arúgula
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Chives
+   es: Cebolín
+   quarter: 1500
+   half: 2800
+   full: 4400
+
+ - en: Cilantro
+   es: Culantro
+   quarter: 1000
+   half: 1800
+   full: 3000
+
+ - en: Dill
+   es: Eneldo
+   quarter: 1500
+   half: 2800
+   full: 4600
+
+ - en: Spinach
+   es: Espinaca
+   quarter: 1000
+   half: 1800
+   full: 3300
+
+ - en: Tarragon, Mexican
+   es: Estragón
+   quarter: 1200
+   half: 2200
+   full: 4000
+
+ - en: Peppermint
+   es: Hierba Buena
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Fennel (bulb)
+   es: Hinojo
+   quarter: 1200
+   half: 2200
+   full: 3600 
+
+ - en: Mustard
+   es: Mostaza
+   quarter: 1200
+   half: 2200
+   full: 3600  
+
+ - en: Oregano, Mexican
+   es: Orégano Mexicano
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Parsley, Italian
+   es: Perejil Italiano
+   quarter: 1200
+   half: 2200
+   full: 3600  
+
+ - en: Parsley, Curly
+   es: Perejil Crespo
+   quarter: 1200
+   half: 2200
+   full: 3600  
+
+ - en: Rosemary
+   es: Romero
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Sage
+   es: Salvia
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Thyme
+   es: Tomillo
+   quarter: 1200
+   half: 2200
+   full: 3600
+
+ - en: Lemon Grass
+   es: Zacate de limón
+   quarter: 1500
+   half: 2800
+   full: 4600
+
+ - en: Salad Mix
+   es: Ensalada Mixta
+   quarter: n/a
+   half: 2000
+   full: 4000
+
+ - en: Pac Choi
+   es: Pac Choi
+   quarter: 1000
+   half: 1800
+   full: 3300
+
+ - en: Selected Tomatoes
+   es: Tomates Especiales
+   quarter: n/a
+   half: 1000
+   full: 2000
+
+ - en: Dandelion
+   es: Diente de León
+   quarter: 1100
+   half: 2000
+   full: 4000
+
+ - en: Burdock (Root)
+   es: Lampazo
+   quarter: 1500
+   half: 2600
+   full: 5000
+
+ - en: Stinging Nettle
+   es: Ortiga
+   quarter: 1500
+   half: 2600
+   full: 5000
+
+ - en: Stevia
+   es: Stevia
+   quarter: 1500
+   half: 2600
+   full: 5000
+
+ - en: Edible Flower Mix<br/><small>125 g. Box</small>
+   es: Flores Comestibles<br/><small>Cajita de 125 g.</small>
+   quarter: 1800<br/><small>125 g.</small>
+   half: n/a
+   full: n/a
+

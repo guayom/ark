@@ -1,0 +1,14 @@
+{% assign tours = site.data.tours %}
+<table class="contact-list">
+	{% for price in tours.prices %}
+		<tr>
+			<td><strong>{{ price.[page.lang] }} </strong></td>
+			<td class="text-right" style="width:25%">&#162;{{ price.price }}</td>
+		</tr>
+	{% endfor %}
+</table>
+{% if page.lang == 'en' %}
+<p>You are welcome to come for purchase of fresh product and plants from the nursery without an entrance fee. However, an entrance fee must be apid to have access to the gradens and picnic area.</p>
+{% else %}
+<p>Eres bienvenido a pasar a la compra de plantas y productos frescos del vivero sin tener que pagar entrada, sin embargo, debes pagar una pequeña cuota para tener acceso a los jardines y al área de picnic.</p>
+{% endif %}

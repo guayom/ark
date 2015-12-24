@@ -1,0 +1,167 @@
+ - title: Ethno Botanical Garden
+   thumb: images/homesliders/slide1.jpg
+   image: images/homesliders/slide1.jpg
+   alt: slidebg1
+   lazyload: images/homesliders/slide1.jpg
+   transition: fade
+   slotamount: 8
+   masterspeed: 800
+
+   divs:
+   - content: '<img src="/images/logo.png"/>'
+     class: tp-caption rev-subtitle lfb ltt
+     y: 20
+     speed: 1000
+     endspeed: 700
+     start: 900
+     style: 'z-index: 10'
+
+   - content: Ethno Botanical Garden
+     class: tp-caption rev-title lfb ltt
+     y: 240
+     speed: 1000
+     endspeed: 700
+     start: 1000
+     style: 'z-index: 6'
+
+   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
+     class: tp-caption rev-text lfb ltt
+     y: 340
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'
+
+   - content: "On the slopes of Poás Volcano, only 45 minutes from San José, you'll find one of the best collections of medicinal plants in Costa Rica, where cultural traditions and medicine come together for physical and spiritual wellbeing."
+     class: tp-caption rev-text lfb ltt
+     y: 380
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'
+
+ - title: Ethno Botanical Garden
+   thumb: images/homesliders/slide2.jpg
+   image: images/homesliders/slide2.jpg
+   alt: slidebg2
+   lazyload: images/homesliders/slide2.jpg
+   transition: fade
+   slotamount: 8
+   masterspeed: 800
+
+   divs:
+   - content: '<img src="/images/logo.png"/>'
+     class: tp-caption rev-subtitle lfb ltt
+     y: 20
+     speed: 1000
+     endspeed: 700
+     start: 900
+     style: 'z-index: 10'
+
+   - content: Ethno Botanical Garden
+     class: tp-caption rev-title lfb ltt
+     y: 240
+     speed: 1000
+     endspeed: 700
+     start: 1000
+     style: 'z-index: 6'
+
+   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
+     class: tp-caption rev-text lfb ltt
+     y: 340
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'
+
+   - content: Our garden is nestled in the center of our 7 hectare propoerty. Which also produces culinary herbs. 
+     class: tp-caption rev-text lfb ltt
+     y: 380
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'
+
+ - title: Ethno Botanical Garden
+   thumb: images/homesliders/slide3.jpg
+   image: images/homesliders/slide3.jpg
+   alt: slidebg3
+   lazyload: images/homesliders/slide3.jpg
+   transition: fade
+   slotamount: 8
+   masterspeed: 800
+
+   divs:
+   - content: '<img src="/images/logo.png"/>'
+     class: tp-caption rev-subtitle lfb ltt
+     y: 20
+     speed: 1000
+     endspeed: 700
+     start: 900
+     style: 'z-index: 10'
+
+   - content: Ethno Botanical Garden
+     class: tp-caption rev-title lfb ltt
+     y: 240
+     speed: 1000
+     endspeed: 700
+     start: 1000
+     style: 'z-index: 6'
+
+   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
+     class: tp-caption rev-text lfb ltt
+     y: 340
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'
+
+   - content: "From our farm you can enjoy a beutiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+     class: tp-caption rev-text lfb ltt
+     y: 380
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'
+
+ - title: Ethno Botanical Garden
+   thumb: images/homesliders/slide4.jpg
+   image: images/homesliders/slide4.jpg
+   alt: slidebg3
+   lazyload: images/homesliders/slide4.jpg
+   transition: fade
+   slotamount: 8
+   masterspeed: 800
+
+   divs:
+   - content: '<img src="/images/logo.png"/>'
+     class: tp-caption rev-subtitle lfb ltt
+     y: 20
+     speed: 1000
+     endspeed: 700
+     start: 900
+     style: 'z-index: 10'
+
+   - content: Ethno Botanical Garden
+     class: tp-caption rev-title lfb ltt
+     y: 240
+     speed: 1000
+     endspeed: 700
+     start: 1000
+     style: 'z-index: 6'
+
+   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
+     class: tp-caption rev-text lfb ltt
+     y: 340
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'
+
+   - content: "From our farm you can enjoy a beutiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+     class: tp-caption rev-text lfb ltt
+     y: 380
+     speed: 1000
+     endspeed: 700
+     start: 1200
+     style: 'z-index: 12'

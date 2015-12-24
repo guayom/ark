@@ -1,0 +1,50 @@
+phone:	2269-4849
+hours: 9am – 4pm
+produce_orders: 2269-9683
+hours_orders:
+ - mon_thu: 6am – 4pm
+ - fri: 6am – 2 pm
+nursery_phone: to be advised
+nursery_hours: 7am – 12pm / 1pm - 4pm
+prices:
+ - en: Students with tour guide
+   es: Estudiantes con guía
+   price: 2,500 
+ - en: Tours with guide
+   es: Tours with guide
+   price: 7,000
+ - en: Tours with no guide
+   es: Tours with no guide
+   price:  4,000
+ - en: Residents and Citizens with Tour Guide
+   es: Residents and Citizens with Tour Guide
+   price:  5,000 
+ - en: Residents and citizens with no guide
+   es: Residents and citizens with no guide
+   price: 3,000
+
+#Tours description
+features:
+ - en: Tour of the garden
+   es: Tour of the garden
+   icon: flower
+
+ - en: Landscape Consulting
+   es: Landscape Consulting
+   icon: flower
+
+ - en: Bilingual Guides
+   es: Guías Biligües
+   icon: flower
+
+ - en: Gift Shop with Natural Products
+   es: Gift Shop with Natural Products
+   icon: flower
+
+ - en: Nursery with potted</br>Culinary and Medicinal Plants
+   es: Nursery with potted</br>Culinary and Medicinal Plants
+   icon: flower
+
+ - en: Light Refreshments
+   es: Light Refreshments
+   icon: flower
