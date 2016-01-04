@@ -16,6 +16,11 @@ en:
     product: Product
     name: Name
     prices_colones: Prices in Colones
+    nursery: Nursery
+    other: Other
+    title: Title
+    description: Description
+
 
 es:
     language: Lenguaje
@@ -35,3 +40,7 @@ es:
     product: Producto
     name: Nombre
     prices_colones: Precios en Colones
+    nursery: Vivero
+    other: Varios
+    title: Título
+    description: Descripción

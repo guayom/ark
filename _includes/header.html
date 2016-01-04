@@ -37,7 +37,7 @@
                       <span class="icon-bar"></span>
                   </button>
 
-                  <a class="navbar-brand text-uppercase" href="index.html" title="Boss - Multipurpose Premium Html5 Template">
+                  <a class="navbar-brand text-uppercase" href="index.html" title="Ark Herb Farm">
                       {% if page.style == 'white' %}
                         <img src="{{ "/images/logo.png" | prepend: site.baseurl }}" width='80' height='80' />
                       {% else %}
@@ -61,9 +61,13 @@
                       {% include mainmenu.html %}
                   </ul>
                   
+                  <!--
                   <button type="button" class="navbar-btn btn-icon btn-circle navbar-right last  hidden-sm hidden-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button>
+                  -->
                   
-                  <a class="navbar-btn btn-icon btn-circle dropdown-toggle pull-right"><i class="fa fa-facebook"></i></a>&nbsp;
+                  {% for red in site.data.contact_info.social %}
+                    <a class="navbar-btn btn-icon btn-circle dropdown-toggle pull-right" href="{{ red.url }}"><i class="fa fa-{{ red.name }}"></i></a>&nbsp;
+                  {% endfor %}
                   
               </div><!-- /.navbar-collapse -->
           </div><!-- /.container -->

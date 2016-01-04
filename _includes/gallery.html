@@ -1,0 +1,27 @@
+{% assign translation = site.data.translations[page.lang] %}
+<div class="container">
+    <ul id="portfolio-filter" class="text-left">
+        <li class="active"><a href="#" data-filter="*">Todos</a></li>
+        <li><a href="#" data-filter=".productos">{{ translation.product }}s</a></li>
+        <li><a href="#" data-filter=".vivero">{{ translation.nursery }}</a></li>
+        <li><a href="#" data-filter=".varios">{{ translation.other }}</a></li>
+    </ul>
+
+    <div id="portfolio-item-container" class="max-col-4 popup-gallery">
+    	{% for item in site.data.gallery %}
+        <div class="portfolio-item portfolio-meta-slideup push {{ item.grupo }}">
+            <figure>
+                <a href="/images/gallery/{{ item.file }}" class="zoom-item" title="{{ item.description }}">
+                	<img src="/images/gallery/{{ item.file }}" alt="portfolio item name" class="img-responsive">
+                </a>
+            </figure>
+            <div class="portfolio-meta dark">
+                <h2 class="portfolio-title"><a href="single-portfolio.html">{{ item.title }}</a></h2>
+                <p>{{ item.description }}</p>
+                <!--<div class="portfolio-tags"><a href="#">{{ item.grupo | capitalize}}</a></div>-->
+            </div><!-- End .portfolio-meta -->                            
+        </div><!-- End .portfolio-item -->
+        {% endfor %}
+
+    </div><!-- End #portfolio-item-container -->
+</div><!-- End .container -->
