@@ -1,0 +1,43 @@
+---
+layout: page
+lang: es
+alt: /products-upon-request/
+permalink: /productos-por-pedido/
+title: Productos por pedido
+description: Estos productos están disponibles por pedido. Por favor revisa su disponibilidad antes de visitarnos.
+weight: 11
+headerimg: fresh-products.jpg
+header_class: largest
+---
+{% assign translation = site.data.translations[page.lang] %}
+<h3>Llama para hacer tu pedido</h3>
+<p>
+<strong>Teléfono:</strong> 2269-9683<br/>
+<strong>Fax:</strong> 2269-1866<br/>
+</p>
+<h3>Horario de empacadora</h3>
+<p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
+<strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
+<p>Los productos marcados con un asterisco<span class="asterisk">*</span> están disponibles en cualquier momento, pero es mejor pedirlos por adelantado, de lo contrario, no estarán empacados a tiempo.</p>
+<div class="table-responsive">
+	<table class="table table-bordered table-hover table-condensed table-hover">
+	    <thead>
+	        <tr>
+	            <th>{{ translation.name }}</th>
+	            <th class="text-right">Unidad</th>
+	            <th class="text-right">1/2 Kg</th>
+	            <th class="text-right">1 Kg</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	    	{% for product in site.data.products_upon_request %}
+	        <tr>
+	            <td>{{ product[page.lang] }}{% if product.asterisk == true %}<span class="asterisk">*</span>{% endif %}</td>
+	            <td class="text-right">{% if product.unit %}&#162;{{ product.unit }}{% else %}-{% endif %}</td>
+	            <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
+	            <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
+	        </tr>
+	        {% endfor %}
+	    </tbody>
+	</table>
+</div>

@@ -6,27 +6,31 @@ hours_orders:
  - fri: 6am – 2 pm
 nursery_phone: to be advised
 nursery_hours: 7am – 12pm / 1pm - 4pm
-prices:
- - en: Students with tour guide
-   es: Estudiantes con guía
-   price: 2,500 
- - en: Tours with guide
-   es: Tours with guide
-   price: 7,000
- - en: Tours with no guide
-   es: Tours with no guide
-   price:  4,000
- - en: Residents and Citizens with Tour Guide
-   es: Residents and Citizens with Tour Guide
-   price:  5,000 
- - en: Residents and citizens with no guide
-   es: Residents and citizens with no guide
-   price: 3,000
+
+guided:
+   prices:
+    - en: Students with tour guide
+      es: Estudiantes con guía
+      price: 2,500 
+    - en: Tours with guide
+      es: Tours con Guía
+      price: 7,000
+    - en: Residentes y Ciudadanos con Guía
+      es: Residents and Citizens with Tour Guide
+      price:  5,000
+unguided:
+   prices:
+    - en: Tours with no guide
+      es: Tours sin guía
+      price:  4,000
+    - en: Residents and citizens with no guide
+      es: Residentes y ciudadanos sin Guía
+      price: 3,000
 
 #Tours description
 features:
  - en: Tour of the garden
-   es: Tour of the garden
+   es: Tours de los Jardines
    icon: flower
 
  - en: Landscape Consulting
@@ -42,7 +46,7 @@ features:
    icon: gift
 
  - en: Nursery with potted</br>Culinary and Medicinal Plants
-   es: Nursery with potted</br>Culinary and Medicinal Plants
+   es: Viveros de Plantas Culinarias<br/>y Medicinales en Mesetas
    icon: leaf
 
  - en: Light Refreshments

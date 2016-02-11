@@ -1,35 +1,39 @@
 ---
 layout: page
 lang: en
-alt: /productos-frescos/
-permalink: /fresh-products/
-title: Fresh Products
-description: Bright intense smells assail you as you enter the packing house to purchase fresh herbs. A mix of baby lettuces grown hydroponically are washed and packaged in ½ kilo bags, fresh salad ready to take home. Fresh herbs are for sale so plan ahead to make pesto , share bags of herbs with friends, or get ready to dry fresh herbs for your own kitchen.
-weight: 10
+permalink: /products-upon-request/
+alt: /productos-por-pedido/
+title: Fresh Product Upon Request
+description: These fresh products are available upon request. Check for availability and order ahead of your visit.
+weight: 11
 headerimg: fresh-products.jpg
 header_class: largest
 ---
 {% assign translation = site.data.translations[page.lang] %}
-<h2>Price List Fresh Herbs</h2>
-<p>We have a price list for fresh herbs available and see <a href="/products-upon-request/">our price list for herbs available with an advance order.</a></p>
+<h3>Call and make your request</h3>
+<p>
+<strong>Phone Number:</strong> 2269-9683<br/>
+<strong>Fax:</strong> 2269-1866<br/>
+</p>
 <h3>Hours</h3>
 <p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
 <strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
+<p>The Products marked with an asterisk <span class="asterisk">*</span> are available anytime, but it’s best to order ahead of time as they will not be ready packed otherwise.</p>
 <div class="table-responsive">
 	<table class="table table-bordered table-hover table-condensed table-hover">
 	    <thead>
 	        <tr>
 	            <th>{{ translation.name }}</th>
-	            <th class="text-right">1/4 Kg</th>
+	            <th class="text-right">Unit</th>
 	            <th class="text-right">1/2 Kg</th>
 	            <th class="text-right">1 Kg</th>
 	        </tr>
 	    </thead>
 	    <tbody>
-	    	{% for product in site.data.fresh_products %}
+	    	{% for product in site.data.products_upon_request %}
 	        <tr>
-	            <td>{{ product[page.lang] }}</td>
-	            <td class="text-right">{% unless product.quarter == 'n/a' %}&#162;{{ product.quarter }}{% else %}-{% endunless %}</td>
+	            <td>{{ product[page.lang] }}{% if product.asterisk == true %}<span class="asterisk">*</span>{% endif %}</td>
+	            <td class="text-right">{% if product.unit %}&#162;{{ product.unit }}{% else %}-{% endif %}</td>
 	            <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
 	            <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
 	        </tr>

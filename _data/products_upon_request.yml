@@ -1,0 +1,107 @@
+ - en: Arracacha
+   es: Arracacha
+   half: 2500
+   full: 4000
+   asterisk: true
+
+ - en: "Eggplant, Asian"
+   es: "Berenjena,Asia"
+   half: n/a
+   full: n/a
+   unit: 400
+
+ - en: Chaya
+   es: Chaya
+   half: 1800
+   full: 3000
+   asterisk: true
+
+ - en: Chicasquil
+   es: Chicasquil
+   half: 1800
+   full: 3000
+   asterisk: true
+
+ - en: (Curly) Kale
+   es: Col Crespo
+   half: 1800
+   full: 3000
+   asterisk: true
+
+ - en: Turmeric Root
+   es: "Curcuma,raíz"
+   half: 2000
+   full: 4000
+   asterisk: true
+
+ - en: Green Soy Beans
+   es: Edamame
+   half: 2700
+   full: 4500
+
+ - en: Spinach
+   es: Espinaca
+   half: 1800
+   full: 3000
+   asterisk: true
+
+ - en: Eucalyptus leaves
+   es: Hojas de eucalipto
+   half: 2700
+   full: 5000
+   asterisk: true
+
+ - en: Jackass Bitters
+   es: Gavilana
+   half: 2500
+   full: 4000
+   asterisk: true
+
+ - en: "Hibiscus, red leaf"
+   es: "Hibiscus, hoja roja"
+   half: 2700
+   full: 5000
+   asterisk: true
+
+ - en: "Fennel, bulb"
+   es: "Hinojo, bulbo"
+   half: 2000
+   full: 3300
+   asterisk: true
+
+ - en: Ginger root
+   es: "Jenibre,raíz"
+   half: 2500
+   full: 5000
+   asterisk: true
+
+ - en: "Katuk, leaves"
+   es: "Katuk, hojas"
+   half: 2500
+   full: 4000
+   asterisk: true
+
+ - en: "Burdock, root"
+   es: "Lampazo,raíz"
+   half: 2700
+   full: 5000
+   asterisk: true
+
+ - en: "Aloe,gel"
+   es: "Sabila,gel"
+   half: 7000
+   full: n/a
+   asterisk: true
+
+ - en: Purple clover<br/><small>125 g. Box</small>
+   es: Trebol Morada<br/><small>Cajita de 125 g.</small>
+   unit: 1600
+   half: n/a
+   full: 10000
+   asterisk: true
+
+ - en: Lavender Flowers<br/><small>125 g. Box</small>
+   es: "Lavanda, flores<br/><small>Cajita de 125 g.</small>"
+   unit: 1600
+   full: n/a
+   half: n/a
