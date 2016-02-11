@@ -1,7 +1,7 @@
 {% assign translation = site.data.translations[page.lang] %}
 <div class="container">
     <ul id="portfolio-filter" class="text-left">
-        <li class="active"><a href="#" data-filter="*">Todos</a></li>
+        <li class="active"><a href="#" data-filter="*">{{ translation.all }}</a></li>
         <li><a href="#" data-filter=".productos">{{ translation.product }}s</a></li>
         <li><a href="#" data-filter=".vivero">{{ translation.nursery }}</a></li>
         <li><a href="#" data-filter=".varios">{{ translation.other }}</a></li>

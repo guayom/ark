@@ -20,6 +20,7 @@ en:
     other: Other
     title: Title
     description: Description
+    all: All
 
 
 es:
@@ -44,3 +45,4 @@ es:
     other: Varios
     title: Título
     description: Descripción
+    all: Todos
