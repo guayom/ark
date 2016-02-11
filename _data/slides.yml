@@ -1,46 +1,4 @@
  - title: Ethno Botanical Garden
-   thumb: images/homesliders/slide1.jpg
-   image: images/homesliders/slide1.jpg
-   alt: slidebg1
-   lazyload: images/homesliders/slide1.jpg
-   transition: fade
-   slotamount: 8
-   masterspeed: 800
-
-   divs:
-   - content: '<img src="/images/logo.png"/>'
-     class: tp-caption rev-subtitle lfb ltt
-     y: 20
-     speed: 1000
-     endspeed: 700
-     start: 900
-     style: 'z-index: 10'
-
-   - content: Ethno Botanical Garden
-     class: tp-caption rev-title lfb ltt
-     y: 240
-     speed: 1000
-     endspeed: 700
-     start: 1000
-     style: 'z-index: 6'
-
-   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
-     class: tp-caption rev-text lfb ltt
-     y: 340
-     speed: 1000
-     endspeed: 700
-     start: 1200
-     style: 'z-index: 12'
-
-   - content: "On the slopes of Poás Volcano, only 45 minutes from San José, you'll find one of the best collections of medicinal plants in Costa Rica, where cultural traditions and medicine come together for physical and spiritual wellbeing."
-     class: tp-caption rev-text lfb ltt
-     y: 380
-     speed: 1000
-     endspeed: 700
-     start: 1200
-     style: 'z-index: 12'
-
- - title: Ethno Botanical Garden
    thumb: images/homesliders/slide2.jpg
    image: images/homesliders/slide2.jpg
    alt: slidebg2
@@ -66,17 +24,9 @@
      start: 1000
      style: 'z-index: 6'
 
-   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
+   - content: The Ark Herb Farm lays nestled on the side of the Barva volcano overlooking the San Jose valley. With an altitude of 3900 ft. and a year round growing season this 7.5 hectare botanical garden has a multitude of varieties of plants.
      class: tp-caption rev-text lfb ltt
      y: 340
-     speed: 1000
-     endspeed: 700
-     start: 1200
-     style: 'z-index: 12'
-
-   - content: Our garden is nestled in the center of our 7 hectare propoerty. Which also produces culinary herbs. 
-     class: tp-caption rev-text lfb ltt
-     y: 380
      speed: 1000
      endspeed: 700
      start: 1200
