@@ -10,34 +10,49 @@ headerimg: fresh-products-upon-request.jpg
 header_class: largest
 ---
 {% assign translation = site.data.translations[page.lang] %}
-<h3>Call and make your request</h3>
-<p>
-<strong>Phone Number:</strong> 2269-9683<br/>
-<strong>Fax:</strong> 2269-1866<br/>
-</p>
-<h3>Hours</h3>
-<p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
-<strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
-<p>The Products marked with an asterisk <span class="asterisk">*</span> are available anytime, but it’s best to order ahead of time as they will not be ready packed otherwise.</p>
-<div class="table-responsive">
-	<table class="table table-bordered table-hover table-condensed table-hover">
-	    <thead>
-	        <tr>
-	            <th>{{ translation.name }}</th>
-	            <th class="text-right">Unit</th>
-	            <th class="text-right">1/2 Kg</th>
-	            <th class="text-right">1 Kg</th>
-	        </tr>
-	    </thead>
-	    <tbody>
-	    	{% for product in site.data.products_upon_request %}
-	        <tr>
-	            <td>{{ product[page.lang] }}{% if product.asterisk == true %}<span class="asterisk">*</span>{% endif %}</td>
-	            <td class="text-right">{% if product.unit %}&#162;{{ product.unit }}{% else %}-{% endif %}</td>
-	            <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
-	            <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
-	        </tr>
-	        {% endfor %}
-	    </tbody>
-	</table>
+<div class="row">
+	<div class="col-xs-12 col-md-8 col-lg-9">
+		<ul class="product-list row">
+		{% for product in site.data.products_upon_request %}
+				<li class="col-xs-6">
+					<div class="product-container clearfix">
+						<h3>{{ product[page.lang] }}{% if product.asterisk == true %}<span class="asterisk">*</span>{% endif %}</h3>
+						<div class="col-xs-12">
+							<div col="row clearfix">
+								{% if product.unit %}
+									<div class="price">
+										<span class="amount">&#162;{{ product.unit }}</span>
+										<br/>Each
+									</div>
+								{% endif %}
+								{% unless product.half == 'n/a' %}
+									<div class="price">
+										<span class="amount">&#162;{{ product.half }}</span>
+										<br/>1/2 Kg
+									</div>
+								{% endunless %}
+								{% unless product.full == 'n/a' %}
+									<div class="price">
+										<span class="amount">&#162;{{ product.full }}</span>
+										<br/>1 Kg
+									</div>
+								{% endunless %}
+							</div>
+						</div>
+					</div>
+				</li>
+		{% endfor %}
+		</ul>
+	</div>
+	<div class="col-xs-12 col-md-4 col-lg-3">
+		<h3>Call and make your request</h3>
+		<p>
+		<strong>Phone Number:</strong> 2269-9683<br/>
+		<strong>Fax:</strong> 2269-1866<br/>
+		</p>
+		<h3>Hours</h3>
+		<p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
+		<strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
+		<p>The Products marked with an asterisk <span class="asterisk">*</span> are available anytime, but it’s best to order ahead of time as they will not be ready packed otherwise.</p>
+	</div>
 </div>

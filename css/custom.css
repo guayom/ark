@@ -4,3 +4,38 @@ h1.less-margin{
 .asterisk{
 	color: red;
 }
+ul.product-list{
+}
+ul.product-list li{
+	text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 0 20px 20px 20px;
+}
+ul.product-list .product-container{
+	border: 1px solid #e9e9e9;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+ul.product-list li h3{
+  margin-bottom: 10px;
+  color: #333;
+  color: #fff;
+  background: url(../images/bg-product.jpg) bottom;
+  padding: 20px;
+  
+  font-size: 1.6em;
+}
+ul.product-list .price{
+	text-align: center;
+	width: 33%;
+	display: inline-block;
+}
+ul.product-list .amount{
+	clear: both;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #5D8828;
+}
