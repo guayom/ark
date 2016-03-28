@@ -39,6 +39,13 @@ header_class: larger2x
                 <input type="submit" class="btn btn-dark btn-block" data-loading-text="Sending..." value="Send Message">
             </div><!-- End .from-group -->
         </form>
+        <div class="mb30"></div><!-- space -->
+        <h2 class="title-underblock dark mb30">{{translation.find_us}}</h2>
+        {% include maps_script.html %}
+        <ul class="contact-list">
+          <li>{% include waze-link.html %}</li>
+          <li><a href="https://www.google.com/maps/dir/Current+Location/{{site.lat}},{{site.lon}}" target="_blank" class="btn btn-dark no-radius min-width"><i class="fa fa-map"></i> {{ translation.googlemaps }}</a></li>
+        </ul>
     </div><!-- End .col-sm-8 -->
 
     <div class="mb20 visible-xs"></div><!-- space -->
@@ -51,7 +58,13 @@ header_class: larger2x
             <li><strong>Tours English Phone:</strong> {{ tours.phone }}</li>
             <li><strong>Tours Hours:</strong> {{ tours.hours }}</li>
         </ul>
-        
+
+        <h3 class="mb20">{{ translation.visit_us }}</h3>
+        <ul class="contact-list">
+          <li>{% include waze-link.html %}</li>
+          <li><a href="https://www.google.com/maps/dir/Current+Location/{{site.lat}},{{site.lon}}" target="_blank"><i class="fa fa-map"></i> {{ translation.googlemaps }}</a></li>
+        </ul>
+
         <h3 class="mb20">Fresh Product Orders</h3>
         <ul class="contact-list">
             <li><strong>{{ translation.phone }}:</strong> {{ tours.produce_orders }}</li>
@@ -72,8 +85,7 @@ header_class: larger2x
         </div>
 
         <div class="mb20"></div><!-- space -->
-        
+
     </div><!-- End .col-sm-4 -->
 
 </div><!-- End .row -->
-{% include maps_script.html %}

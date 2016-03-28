@@ -21,7 +21,10 @@ en:
     title: Title
     description: Description
     all: All
-
+    waze: Open in <strong>Waze</strong>
+    googlemaps: Open in <strong>Google Maps</strong>
+    find_us: Find Us
+    visit_us: Come Visit Us
 
 es:
     language: Lenguaje
@@ -46,3 +49,7 @@ es:
     title: Título
     description: Descripción
     all: Todos
+    waze: Abrir en <strong>Waze</strong>
+    googlemaps: Abrir en <strong>Google Maps</strong>
+    find_us: Encuéntrenos
+    visit_us: Visítenos

@@ -9,8 +9,8 @@ Change the href attribute to change color schemes
 Caution: Include this file after style.css file
 
 Hex Codes for colors
-First Color:#009688;
-Second Color:#00796b;
+First Color:$green;
+Second Color:$darker-green;
 Third Color:#ef5350;
 Fourth Color:#e53935;
 
@@ -19,11 +19,11 @@ Fourth Color:#e53935;
 
 /* First Color */
 ::selection {
-    background-color: #009688;
+    background-color: $green;
 }
 
 ::-moz-selection {
-	background-color: #009688;
+	background-color: $green;
 }
 
 a,
@@ -48,7 +48,7 @@ a,
 .navbar-default .navbar-nav .megamenu-title:hover,
 .navbar-default .dropdown-menu > li > a:hover,
 .navbar-default .dropdown-menu > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-link:hover,
 .navbar-default .btn-link:hover,
@@ -70,7 +70,7 @@ a,
 .navbar-white .navbar-nav .megamenu-title:hover,
 .navbar-white .dropdown-menu > li > a:hover,
 .navbar-white .dropdown-menu > li > a:focus,
-.navbar-white .navbar-nav > li > a:hover, 
+.navbar-white .navbar-nav > li > a:hover,
 .navbar-white .navbar-nav > li > a:focus,
 .navbar-white .navbar-link:hover,
 .navbar-white .btn-link:hover,
@@ -136,7 +136,7 @@ a,
 #footer.footer-default .widget .tweet_time a:focus,
 .nav-border.custom-nav .owl-prev,
 .nav-border.custom-nav .owl-next  {
-	color:#009688;
+	color:$green;
 }
 
 blockquote:after,
@@ -229,7 +229,7 @@ blockquote:after,
 .sbOptions a:hover,
 .sbOptions a:focus,
 .sbOptions a.sbFocus {
-	background-color: #009688;
+	background-color: $green;
 }
 
 .btn-custom,
@@ -279,13 +279,13 @@ blockquote:after,
 .nav-border.custom-nav .owl-next:hover,
 .nav-border.white-nav .owl-prev:hover,
 .nav-border.white-nav .owl-next:hover {
-	border-color: #009688;
+	border-color: $green;
 }
 
 .input-border-bottom.form-control:focus,
 .form-control.dark.input-border-bottom:focus,
 .form-control.white.input-border-bottom:focus {
-	border-color:#009688 !important;
+	border-color:$green !important;
 }
 
 .progress-tooltip:after,
@@ -294,20 +294,20 @@ blockquote:after,
 #header,
 .bg-custom .testimonial-vertical .testimonial-content:after,
 .bg-custom .testimonial-vertical.reverse .testimonial-content:after {
-	border-top-color: #009688;
+	border-top-color: $green;
 }
 
 blockquote,
 .tooltip.left .tooltip-arrow,
 .popover.left > .arrow,
 .bg-custom .testimonial.reverse .testimonial-content:after {
-	border-left-color:#009688;
+	border-left-color:$green;
 }
 
 blockquote.blockquote-reverse,
 .tooltip.top .tooltip-arrow,
 .popover.right > .arrow  {
-	border-right-color:#009688;
+	border-right-color:$green;
 }
 
 .tooltip.right .tooltip-arrow,
@@ -316,7 +316,7 @@ blockquote.blockquote-reverse,
 .popover.bottom > .arrow,
 .popover.bottom > .arrow:after,
 .bg-custom .testimonial-content:after {
-	border-bottom-color: #009688;
+	border-bottom-color: $green;
 }
 
 @media (max-width: 767px) {
@@ -330,20 +330,20 @@ blockquote.blockquote-reverse,
 	.navbar-white .navbar-nav .open .dropdown-menu > .active > a,
 	.navbar-white .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-white .navbar-nav .open .dropdown-menu > .active > a:focus {
-		color: #009688;
+		color: $green;
 	}
 }
 
 @media (min-width: 768px) {
-	.navbar-white.navbar-transparent .navbar-nav > li > a:hover, 
+	.navbar-white.navbar-transparent .navbar-nav > li > a:hover,
 	.navbar-white.navbar-transparent .navbar-nav > li > a:focus,
 	.navbar-white.navbar-transparent .navbar-nav > li.open > a,
 	.navbar-white.navbar-transparent .navbar-nav > li.active > a,
-	.navbar-inverse.navbar-transparent .navbar-nav > li > a:hover, 
+	.navbar-inverse.navbar-transparent .navbar-nav > li > a:hover,
 	.navbar-inverse.navbar-transparent .navbar-nav > li > a:focus,
 	.navbar-inverse.navbar-transparent .navbar-nav > li.open > a,
 	.navbar-inverse.navbar-transparent .navbar-nav > li.active > a {
-		color:#009688;
+		color:$green;
 	}
 }
 
@@ -359,7 +359,7 @@ a:focus,
 .pricing-table.border.custom,
 .pricing-table.border.custom .price,
 .pricing-table.border.custom h3 {
-	color:#00796b;
+	color:$darker-green;
 }
 
 .highlight.second-color,
@@ -388,10 +388,10 @@ a:focus,
 .custom-nav .owl-next:hover,
 .white-nav .owl-prev:hover,
 .white-nav .owl-next:hover,
-.service-hover-bg.custom:hover .title-underblock.custom:after, 
-.service-hover-bg.custom:hover .title-underblock.dark:after, 
+.service-hover-bg.custom:hover .title-underblock.custom:after,
+.service-hover-bg.custom:hover .title-underblock.dark:after,
 .service-hover-bg.custom:hover .title-underblock.gray:after {
-	background-color: #00796b;
+	background-color: $darker-green;
 }
 
 .btn-custom2,
@@ -415,7 +415,7 @@ a:focus,
 .pricing-table.flat.custom,
 .pricing-table.flat.custom .pricing-list,
 #footer.footer-custom .btn-custom {
-	border-color: #00796b;
+	border-color: $darker-green;
 }
 
 .panel-custom > .panel-heading + .panel-collapse > .panel-body,
@@ -423,17 +423,17 @@ a:focus,
 .pricing-table.custom .pricing-list,
 #footer.footer-custom,
 .footer-custom #footer-bottom.no-bg {
-	border-top-color: #00796b;
+	border-top-color: $darker-green;
 }
 
 .page-header.custom,
 .pricing-table.custom .pricing-list li {
-	border-bottom-color:#00796b;
+	border-bottom-color:$darker-green;
 }
 
 @media (min-width: 992px) {
 	.footer-custom .main-widget {
-		background-color: #00796b;
+		background-color: $darker-green;
 	}
 }
 

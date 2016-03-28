@@ -8,9 +8,10 @@
     <div id="wrapper">
       <!--<div class="boss-loader-overlay"></div><!-- End .boss-loader-overlay -->
       {{ content }}
-    </div><!-- /Wrapper -->
+    </div>
     <a href="#top" id="scroll-top" title="Back to Top"><i class="fa fa-angle-up"></i></a>
-  <!-- END -->
+    {% contentblock pre-footer %}
+    {% include footer.html %}
 
     <!-- Smoothscroll -->
     <script src='{{ "/js/smoothscroll.js" | prepend: site.baseurl }}'></script>
@@ -34,7 +35,7 @@
     <script src='{{ "/js/jquery.validate.min.js" | prepend: site.baseurl }}'></script>
     <script src='{{ "/js/contact.js" | prepend: site.baseurl }}'></script>
     <script src='{{ "/js/main.js" | prepend: site.baseurl }}'></script>
-    
+
     <script>
         (function () {
             "use strict";
@@ -53,8 +54,6 @@
             });
         }());
     </script>
-    
-    {% include footer.html %}
 
   </body>
 

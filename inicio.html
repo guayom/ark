@@ -6,6 +6,7 @@ permalink: /es/
 title: Inicio
 weight: 1
 ---
+{% assign translation = site.data.translations[page.lang] %}
 <div class="mb60"></div>
 <div class="container">
     <div class="row">
@@ -26,3 +27,6 @@ weight: 1
     </div><!-- End .row -->
 </div>
 <div class="mb60"></div>
+{% contentfor pre-footer %}
+  {% include pre_footer_map.html %}
+{% endcontentfor %}

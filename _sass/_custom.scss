@@ -23,9 +23,9 @@ ul.product-list li h3{
   margin-bottom: 10px;
   color: #333;
   color: #fff;
-  background: url(../images/bg-product.jpg) bottom;
+  background: url(../images/bg-product.jpg) bottom center;
   padding: 20px;
-  
+
   font-size: 1.6em;
 }
 ul.product-list .price{
@@ -39,3 +39,27 @@ ul.product-list .amount{
 	font-weight: bold;
 	color: #5D8828;
 }
+.table{
+  thead > tr{
+    border-top-color: $darker-green;
+    border-bottom-color: $darker-green;
+  }
+  thead>tr>th{
+    background-color: $green;
+    color: #fff;
+    border-color: $darker-green;
+  }
+  tbody>tr:first-child >td{
+    border-top-color: $darker-green;
+  }
+}
+.pre-footer{
+  #map{
+    margin-bottom:0;
+  }
+}
+.mobileShow { display: none;}
+ /* Smartphone Portrait and Landscape */
+ @media only screen
+ and (min-device-width : 320px)
+ and (max-device-width : 480px){ .mobileShow { display: inline;}}

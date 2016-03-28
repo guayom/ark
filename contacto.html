@@ -5,7 +5,7 @@ alt: /contact/
 permalink: /contacto/
 title: Contáctenos
 description: ¡Hola! Use el formulario de contacto</br>para ponerse en contacto con nosotros.
-weight: 12
+weight: 13
 style: white
 headerimg: contacto.jpg
 header_class: larger2x
@@ -25,8 +25,8 @@ header_class: larger2x
                 <input type="email" class="form-control" id="contactemail" name="contactemail" placeholder="Su Email" required>
             </div><!-- End .from-group -->
             <div class="form-group">
-                <label for="contactsubject" class="input-desc">Tema</label>
-                <input type="text" class="form-control" id="contactsubject" name="contactsubject" placeholder="Tema">
+                <label for="contactsubject" class="input-desc">Asunto</label>
+                <input type="text" class="form-control" id="contactsubject" name="contactsubject" placeholder="Asunto">
             </div><!-- End .from-group -->
             <div class="form-group">
                 <label for="contactmessage" class="input-desc">Mensaje</label>
@@ -39,6 +39,13 @@ header_class: larger2x
                 <input type="submit" class="btn btn-dark btn-block" data-loading-text="Sending..." value="Enviar Mensaje">
             </div><!-- End .from-group -->
         </form>
+        <div class="mb30"></div><!-- space -->
+        <h2 class="title-underblock dark mb30">{{translation.find_us}}</h2>
+        {% include maps_script.html %}
+        <ul class="contact-list">
+          <li>{% include waze-link.html %}</li>
+          <li><a href="https://www.google.com/maps/dir/Current+Location/{{site.lat}},{{site.lon}}" target="_blank" class="btn btn-dark no-radius min-width"><i class="fa fa-map"></i> {{ translation.googlemaps }}</a></li>
+        </ul>
     </div><!-- End .col-sm-8 -->
 
     <div class="mb20 visible-xs"></div><!-- space -->
@@ -51,7 +58,13 @@ header_class: larger2x
             <li><strong>{{ translation.phone }}</strong> {{ tours.phone }}</li>
             <li><strong>{{ translation.hours }}:</strong> {{ tours.hours }}</li>
         </ul>
-        
+
+        <h3 class="mb20">{{ translation.visit_us }}</h3>
+        <ul class="contact-list">
+          <li>{% include waze-link.html %}</li>
+          <li><a href="https://www.google.com/maps/dir/Current+Location/{{site.lat}},{{site.lon}}" target="_blank"><i class="fa fa-map"></i> {{ translation.googlemaps }}</a></li>
+        </ul>
+
         <h3 class="mb20">Órdenes de Producto Fresco</h3>
         <ul class="contact-list">
             <li><strong>{{ translation.phone }}:</strong> {{ tours.produce_orders }}</li>
@@ -72,7 +85,7 @@ header_class: larger2x
         </div>
 
         <div class="mb20"></div><!-- space -->
-        
+
     </div><!-- End .col-sm-4 -->
 
 </div><!-- End .row -->
