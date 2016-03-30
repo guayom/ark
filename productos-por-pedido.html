@@ -8,36 +8,44 @@ description: Estos productos son disponibles por pedido. Averiguar por su dispon
 weight: 11
 headerimg: fresh-products-upon-request.jpg
 header_class: largest
+custombg: true
 ---
 {% assign translation = site.data.translations[page.lang] %}
-<h3>Llama para hacer tu pedido</h3>
-<p>
-<strong>Teléfono:</strong> 2269-9683<br/>
-<strong>Fax:</strong> 2269-1866<br/>
-</p>
-<h3>Horario de empacadora</h3>
-<p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
-<strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
-<p>Los productos marcados con un asterisco<span class="asterisk">*</span> están disponible la mayoría del tiempo pero es mejor pedir en adelanto, de lo contrario, no los tendremos listos y empacados a tiempo.</p>
-<div class="table-responsive">
-	<table class="table table-bordered table-hover table-condensed table-hover">
-	    <thead>
-	        <tr>
-	            <th>{{ translation.name }}</th>
-	            <th class="text-right">Unidad</th>
-	            <th class="text-right">1/2 Kg</th>
-	            <th class="text-right">1 Kg</th>
-	        </tr>
-	    </thead>
-	    <tbody>
-	    	{% for product in site.data.products_upon_request %}
-	        <tr>
-	            <td>{{ product[page.lang] }}{% if product.asterisk == true %}<span class="asterisk">*</span>{% endif %}</td>
-	            <td class="text-right">{% if product.unit %}&#162;{{ product.unit }}{% else %}-{% endif %}</td>
-	            <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
-	            <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
-	        </tr>
-	        {% endfor %}
-	    </tbody>
-	</table>
+<div class="row">
+  <div class="col-md-4 flowers-bg">
+    <h3>Llama para hacer tu pedido</h3>
+    <p>
+    <strong>Teléfono:</strong> 2269-9683<br/>
+    <strong>Fax:</strong> 2269-1866<br/>
+    </p>
+    <h3>Horario de empacadora</h3>
+    <p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
+    <strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
+    <p>Los productos marcados con un asterisco<span class="asterisk">*</span> están disponible la mayoría del tiempo pero es mejor pedir en adelanto, de lo contrario, no los tendremos listos y empacados a tiempo.</p>
+    <!-- <img src="{{ site.data.imagenproductos.url }}" alt="Productos"  class="img-responsive"/> -->
+  </div>
+  <div class="col-md-8">
+    <div class="table-responsive">
+    	<table class="table table-bordered table-hover table-condensed table-hover">
+    	    <thead>
+    	        <tr>
+    	            <th>{{ translation.name }}</th>
+    	            <th class="text-right">Unidad</th>
+    	            <th class="text-right">1/2 Kg</th>
+    	            <th class="text-right">1 Kg</th>
+    	        </tr>
+    	    </thead>
+    	    <tbody>
+    	    	{% for product in site.data.products_upon_request %}
+    	        <tr>
+                <td>{{ product[page.lang] }}{% if product.asterisk == true %}<span class="asterisk">*</span>{% endif %}</td>
+                <td class="text-right">{% unless product.unit == 'n/a' %}&#162;{{ product.unit }}{% else %}-{% endunless %}</td>
+                <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
+                <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
+    	        </tr>
+    	        {% endfor %}
+    	    </tbody>
+    	</table>
+    </div>
+  </div>
 </div>

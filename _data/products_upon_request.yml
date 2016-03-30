@@ -1,5 +1,6 @@
  - en: Arracacha
    es: Arracacha
+   unit: n/a
    half: 2500
    full: 4000
    asterisk: true
@@ -12,83 +13,97 @@
 
  - en: Chaya
    es: Chaya
+   unit: n/a
    half: 1800
    full: 3000
    asterisk: true
 
  - en: Chicasquil
    es: Chicasquil
+   unit: n/a
    half: 1800
    full: 3000
    asterisk: true
 
  - en: (Curly) Kale
    es: Col Crespo
+   unit: n/a
    half: 1800
    full: 3000
    asterisk: true
 
  - en: Turmeric Root
    es: "Curcuma,raíz"
+   unit: n/a
    half: 2000
    full: 4000
    asterisk: true
 
  - en: Green Soy Beans
    es: Edamame
+   unit: n/a
    half: 2700
    full: 4500
 
  - en: Spinach
    es: Espinaca
+   unit: n/a
    half: 1800
    full: 3000
    asterisk: true
 
  - en: Eucalyptus leaves
    es: Hojas de eucalipto
+   unit: n/a
    half: 2700
    full: 5000
    asterisk: true
 
  - en: Jackass Bitters
    es: Gavilana
+   unit: n/a
    half: 2500
    full: 4000
    asterisk: true
 
  - en: "Hibiscus, red leaf"
    es: "Hibiscus, hoja roja"
+   unit: n/a
    half: 2700
    full: 5000
    asterisk: true
 
  - en: "Fennel, bulb"
    es: "Hinojo, bulbo"
+   unit: n/a
    half: 2000
    full: 3300
    asterisk: true
 
  - en: Ginger root
    es: "Jenibre,raíz"
+   unit: n/a
    half: 2500
    full: 5000
    asterisk: true
 
  - en: "Katuk, leaves"
    es: "Katuk, hojas"
+   unit: n/a
    half: 2500
    full: 4000
    asterisk: true
 
  - en: "Burdock, root"
    es: "Lampazo,raíz"
+   unit: n/a
    half: 2700
    full: 5000
    asterisk: true
 
  - en: "Aloe,gel"
    es: "Sabila,gel"
+   unit: n/a
    half: 7000
    full: n/a
    asterisk: true

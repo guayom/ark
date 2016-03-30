@@ -58,8 +58,30 @@ ul.product-list .amount{
     margin-bottom:0;
   }
 }
+.flowers-bg{
+  //background: url('../images/vivero-2.jpg') left top no-repeat;
+}
 .mobileShow { display: none;}
  /* Smartphone Portrait and Landscape */
+
+.table.table-condensed > thead > tr > th, .table.table-condensed > tbody > tr > th, .table.table-condensed > tfoot > tr > th, .table.table-condensed > thead > tr > td, .table.table-condensed > tbody > tr > td, .table.table-condensed > tfoot > tr > td, .table.table-condensed > thead > tr > th:first-child, .table.table-condensed > tbody > tr > td:first-child{
+  padding: 8px;
+}
+
+.custombg{
+  background:url(../images/flowers-bg.jpg);
+  &#content{
+    padding-bottom: 0;
+  }
+  .custombg-container{
+    background:white;
+    padding: 50px;
+  }
+  .page-header{
+    margin-bottom: 0;
+  }
+}
+
  @media only screen
  and (min-device-width : 320px)
  and (max-device-width : 480px){ .mobileShow { display: inline;}}

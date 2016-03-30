@@ -10,30 +10,36 @@ headerimg: fresh-products.jpg
 header_class: largest
 ---
 {% assign translation = site.data.translations[page.lang] %}
-<h2>Lista de Precios de Productos Frescos</h2>
-<p>Tenemos productos frescos disponibles y también productos con pedido. <a href="/productos-por-pedido/">Vea aquí la lista de productos con pedido.</a></p>
-<h3>Horario</h3>
-<p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
-<strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
-<div class="table-responsive">
-	<table class="table table-bordered table-hover table-condensed table-hover">
-	    <thead>
-	        <tr>
-	            <th>{{ translation.name }}</th>
-	            <th class="text-right">1/4 Kg</th>
-	            <th class="text-right">1/2 Kg</th>
-	            <th class="text-right">1 Kg</th>
-	        </tr>
-	    </thead>
-	    <tbody>
-	    	{% for product in site.data.fresh_products %}
-	        <tr>
-	            <td>{{ product[page.lang] }}</td>
-	            <td class="text-right">{% unless product.quarter == 'n/a' %}&#162;{{ product.quarter }}{% else %}-{% endunless %}</td>
-	            <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
-	            <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
-	        </tr>
-	        {% endfor %}
-	    </tbody>
-	</table>
+<div class="row">
+  <div class="col-md-4 flowers-bg">
+    <h2>Lista de Precios de Productos Frescos</h2>
+    <p>Tenemos productos frescos disponibles y también productos con pedido. <a href="/productos-por-pedido/">Vea aquí la lista de productos con pedido.</a></p>
+    <h3>Horario</h3>
+    <p><strong>{{ translation.mon }} - {{ translation.thu }}:</strong> 6am - 4pm<br/>
+    <strong>{{ translation.fri }}:</strong> 6am - 2pm</p>
+  </div>
+  <div class="col-md-8">
+    <div class="table-responsive">
+    	<table class="table table-bordered table-hover table-condensed table-hover">
+    	    <thead>
+    	        <tr>
+    	            <th>{{ translation.name }}</th>
+    	            <th class="text-right">1/4 Kg</th>
+    	            <th class="text-right">1/2 Kg</th>
+    	            <th class="text-right">1 Kg</th>
+    	        </tr>
+    	    </thead>
+    	    <tbody>
+    	    	{% for product in site.data.fresh_products %}
+    	        <tr>
+    	            <td>{{ product[page.lang] }}</td>
+    	            <td class="text-right">{% unless product.quarter == 'n/a' %}&#162;{{ product.quarter }}{% else %}-{% endunless %}</td>
+    	            <td class="text-right">{% unless product.half == 'n/a' %}&#162;{{ product.half }}{% else %}-{% endunless %}</td>
+    	            <td class="text-right">{% unless product.full == 'n/a' %}&#162;{{ product.full }}{% else %}-{% endunless %}</td>
+    	        </tr>
+    	        {% endfor %}
+    	    </tbody>
+    	</table>
+    </div>
+  </div>
 </div>

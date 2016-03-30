@@ -2,7 +2,7 @@
 layout: default
 ---
 {% include header.html %}
-<div id="content" role="main">
+<div id="content" role="main"{% if page.custombg == true %} class="custombg"{% endif %}>
 	<div class="page-header parallax {{ page.header_class }} larger-desc skrollable skrollable-between" data-bgattach="/images/headers/{{ page.headerimg }}" data-0="background-position:50% 0px;" data-500="background-position:50% -100%" style="background-image: url(/images/headers/{{ page.headerimg }}); background-position: 50% 0px;">
                 <div class="container skrollable skrollable-between" data-0="opacity:1;" data-top="opacity:0;" style="opacity: 1;">
             <div class="row">
@@ -15,7 +15,7 @@ layout: default
             </div><!-- End .row -->
         </div><!-- End .container -->
     </div>
-	<div class="container">
+	<div class="container{% if page.custombg == true %} custombg-container{% endif %}">
 	  {{ content }}
 	</div>
 </div>
