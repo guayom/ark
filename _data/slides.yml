@@ -17,6 +17,7 @@
      style: 'z-index: 10'
 
    - content: Ethno Botanical Garden
+     content-es: Jardín Etno Botánico
      class: tp-caption rev-title lfb ltt
      y: 240
      speed: 1000
@@ -25,6 +26,7 @@
      style: 'z-index: 6'
 
    - content: The Ark Herb Farm lays nestled on the side of the Barva volcano overlooking the San Jose valley. With an altitude of 3900 ft. and a year round growing season this 7.5 hectare botanical garden has a multitude of varieties of plants.
+     content-es: La Finca de la Arca pone ubicado en el lado del volcán Barva con vistas al valle de San José. Con una altura de 1200 metros y una estación de crecimiento durante todo el año este terreno de 7,5 hectáreas tiene una multitud de variedades de plantas.
      class: tp-caption rev-text lfb ltt
      y: 340
      speed: 1000
@@ -51,6 +53,7 @@
      style: 'z-index: 10'
 
    - content: Ethno Botanical Garden
+     content-es: Jardín Etno Botánico
      class: tp-caption rev-title lfb ltt
      y: 240
      speed: 1000
@@ -66,7 +69,8 @@
      start: 1200
      style: 'z-index: 12'
 
-   - content: "From our farm you can enjoy a beutiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+   - content: "From our farm you can enjoy a beautiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+     content-es: Más de 300 especies de plantas medicinales de todo el mundo. Desde nuestra finca se puede desfrutar una hermosa vista al valle de San José, y lo compartirás con las diferentes especies de aves y mariposas que encuentran refugio en nuestra tierra.
      class: tp-caption rev-text lfb ltt
      y: 380
      speed: 1000
@@ -93,6 +97,7 @@
      style: 'z-index: 10'
 
    - content: Ethno Botanical Garden
+     content-es: Jardín Etno Botánico
      class: tp-caption rev-title lfb ltt
      y: 240
      speed: 1000
@@ -108,7 +113,8 @@
      start: 1200
      style: 'z-index: 12'
 
-   - content: "From our farm you can enjoy a beutiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+   - content: "From our farm you can enjoy a beautiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+     content-es: Más de 300 especies de plantas medicinales de todo el mundo. Desde nuestra finca se puede desfrutar una hermosa vista al valle de San José, y lo compartirás con las diferentes especies de aves y mariposas que encuentran refugio en nuestra tierra.
      class: tp-caption rev-text lfb ltt
      y: 380
      speed: 1000

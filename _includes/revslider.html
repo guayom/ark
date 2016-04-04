@@ -14,7 +14,7 @@
                             data-start="{{ div.start }}"
                             data-easing="Power3.easeInOut"
                             data-endspeed="{{ div.endspeed }}"
-                            style="{{ div.style }}">{{ div.content }}
+                            style="{{ div.style }}">{% if page.lang == 'en' %}{{ div.content }}{% else %}{{ div.content-es }}{% endif %}
                         </div>
                     {% endfor %}
                 </li>
