@@ -25,7 +25,7 @@
      start: 1000
      style: 'z-index: 6'
 
-   - content: The Ark Herb Farm lays nestled on the side of the Barva volcano overlooking the San Jose valley. With an altitude of 3900 ft. and a year round growing season this 7.5 hectare botanical garden has a multitude of varieties of plants.
+   - content: The Ark Herb Farm lays nestled on the side of the Barva volcano overlooking the San Jose valley. With an altitude of 1200 meters. and a year round growing season this 7.5 hectare botanical garden has a multitude of varieties of plants.
      content-es: La Finca de la Arca pone ubicado en el lado del volcán Barva con vistas al valle de San José. Con una altura de 1200 metros y una estación de crecimiento durante todo el año este terreno de 7,5 hectáreas tiene una multitud de variedades de plantas.
      class: tp-caption rev-text lfb ltt
      y: 340
@@ -61,7 +61,7 @@
      start: 1000
      style: 'z-index: 6'
 
-   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
+   - content: Over 1000 varieties including collections of Bamboo, Palms, Fruit Trees, and 300 medicinal plants.
      class: tp-caption rev-text lfb ltt
      y: 340
      speed: 1000
@@ -105,7 +105,7 @@
      start: 1000
      style: 'z-index: 6'
 
-   - content: Over 300 species of Medicinal Plants from Costa Rica and around the world!
+   - content: Over 1000 varieties including collections of Bamboo, Palms, Fruit Trees, and 300 medicinal plants.
      class: tp-caption rev-text lfb ltt
      y: 340
      speed: 1000
