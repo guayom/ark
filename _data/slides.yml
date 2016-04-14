@@ -61,18 +61,10 @@
      start: 1000
      style: 'z-index: 6'
 
-   - content: Over 1000 varieties including collections of Bamboo, Palms, Fruit Trees, and 300 medicinal plants.
-     class: tp-caption rev-text lfb ltt
-     y: 340
-     speed: 1000
-     endspeed: 700
-     start: 1200
-     style: 'z-index: 12'
-
-   - content: "From our farm you can enjoy a beautiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+   - content: Over 1000 varieties including collections of</br>Bamboo, Palms, Fruit Trees, and 300 medicinal plants.</br>From our farm you can enjoy a beautiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land.
      content-es: Más de 300 especies de plantas medicinales de todo el mundo. Desde nuestra finca se puede desfrutar una hermosa vista al valle de San José, y lo compartirás con las diferentes especies de aves y mariposas que encuentran refugio en nuestra tierra.
      class: tp-caption rev-text lfb ltt
-     y: 380
+     y: 340
      speed: 1000
      endspeed: 700
      start: 1200
@@ -105,18 +97,10 @@
      start: 1000
      style: 'z-index: 6'
 
-   - content: Over 1000 varieties including collections of Bamboo, Palms, Fruit Trees, and 300 medicinal plants.
-     class: tp-caption rev-text lfb ltt
-     y: 340
-     speed: 1000
-     endspeed: 700
-     start: 1200
-     style: 'z-index: 12'
-
-   - content: "From our farm you can enjoy a beautiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land."
+   - content: Over 1000 varieties including collections of</br> \Bamboo, Palms, Fruit Trees, and 300 medicinal plants.</br>From our farm you can enjoy a beautiful view of Cost Rica's Central Valley, and you will be sharing it with the different species of birds and butterflies that find refuge in our land.
      content-es: Más de 300 especies de plantas medicinales de todo el mundo. Desde nuestra finca se puede desfrutar una hermosa vista al valle de San José, y lo compartirás con las diferentes especies de aves y mariposas que encuentran refugio en nuestra tierra.
      class: tp-caption rev-text lfb ltt
-     y: 380
+     y: 340
      speed: 1000
      endspeed: 700
      start: 1200
