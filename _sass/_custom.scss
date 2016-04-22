@@ -82,6 +82,34 @@ ul.product-list .amount{
   }
 }
 
+.no-margin-bottom{
+  margin-bottom: 0;
+}
+.tour-features{
+  text-align: left;
+  li{
+    text-align: left;
+    &:after{
+      left:0 !important;
+      margin-left: 0 !important;
+    }
+  }
+}
+.vcenter.icons{
+  padding-right: 30px;
+  .icon{
+    width: 15%;
+    display: inline-block;
+    margin: 10px;
+  }
+}
+.prices-tours{
+  text-align: right;
+  table{
+    float: right;
+  }
+}
+
  @media only screen
  and (min-device-width : 320px)
  and (max-device-width : 480px){ .mobileShow { display: inline;}}

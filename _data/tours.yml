@@ -11,7 +11,7 @@ guided:
    prices:
     - en: Students with tour guide
       es: Estudiantes con guía
-      price: 2,500 
+      price: 2,500
     - en: Tours with guide
       es: Tours con Guía
       price: 7,000
@@ -40,3 +40,33 @@ features:
  - en: Nursery with potted</br>Culinary and Medicinal Plants
    es: Viveros de Plantas Culinarias<br/>y Medicinales en Mesetas
    icon: leaf
+
+icons:
+  en:
+    - Icono-Colorant.jpg
+    - Icono-Construction.jpg
+    - Icono-Crafts.jpg
+    - Icono-Culinary.jpg
+    - Icono-Entheogen.jpg
+    - Icono-Fragrance.jpg
+    - Icono-Fruit.jpg
+    - Icono-Medicinal.jpg
+    - Icono-Nut.jpg
+    - Icono-Oil.jpg
+    - Icono-Ornamental.jpg
+    - Icono-Toxic.jpg
+    - Icono-wood.jpg
+  es:
+    - Icono-Aceite.jpg
+    - Icono-Artesania.jpg
+    - Icono-Colorante.jpg
+    - Icono-Construccion.jpg
+    - Icono-Culinario.jpg
+    - Icono-Enteogeno.jpg
+    - Icono-Fragancia.jpg
+    - Icono-Fruta.jpg
+    - Icono-Madera.jpg
+    - Icono-Medicinal.jpg
+    - Icono-Nuez.jpg
+    - Icono-Ornamental.jpg
+    - Icono-Toxico.jpg
