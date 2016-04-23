@@ -69,7 +69,8 @@ ul.product-list .amount{
 }
 
 .custombg{
-  background:url(../images/flowers-bg.jpg);
+  background: url(../images/flowers-bg-2.jpg) repeat-x;
+  background-position-y: 400px;
   &#content{
     padding-bottom: 0;
   }
