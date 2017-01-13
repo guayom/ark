@@ -10,6 +10,8 @@ url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+formspree: https://formspree.io/thearkherbfarm@gmail.com
+
 # Build settings
 markdown: kramdown
 
